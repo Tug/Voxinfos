@@ -1,0 +1,10 @@
+BACKUP
+bin
+build
+deliverables
+ext
+keys
+nbproject
+.preprocessed
+register_csi.bat
+.DS_Store

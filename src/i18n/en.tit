@@ -1,0 +1,127 @@
+$help{
+This software will inform you of any traps you may face on your road travel. 
+ NEEDS : 
+Your mobile must be able  to : 
+1. deal with HTTP exchanges and/or SMS 
+2. Send its  GPS position (internal or external GPS) 
+VOXINFOS allows you to select GPS source 
+
+Running principles  
+VOXINFOS may  exchange with server either in WAP/HTTP or through SMS. In this case, as the serveur has to send you SMS, amount of points due is five times higher. 
+
+A. INSTALLATION
+Be carefull to delete any older version before installing VOXINFOS
+When installing, always reply 'never ask' to all questions. VOXINFOS is a certified signed software. VOXINFOS installation process on your mobile will end by sending to server an SMS  with your e-mail. Server will identify calling source and return to VOXINFOS a unique personnal key 
+
+B. SHOOTY 
+In options menu, select Run SHOOTY  and key in the desired follow-up  number of minutes
+ (default value : 60)
+As soon as validation is done, VOXINFOS sends to server a follow-up request with identification items.  If an insufficient balance is found on your account  does not allow to provide requested service, a SMS will be sent to you.
+Otherwise, server will send back its agreement for this demand. VOXINFOS then send its GPS position on a regular bases (1 per minute)  
+server returns   dangers GPS points  close to your position which are stored in its database .
+As soon as VOXINFOS get closer to anyone, it will tell you maximum speed limit at this point Please remind that your account is debited only when server receives a GPS position. 
+So, if you arrive earlier at destination, you may close VOXINFOS and it will stop debiting points on your account
+
+C. COMMUNITY
+During your trip, you can inform VOXINFOS community of any danger point you are facing.
+In Options menu, select 'inform of a danger' and then the type of item you are facing : Permanent, temporary, running, traffic jam, accident, service vehicle.... . Our server will put this information in its database and all people with VOXINFOS service on  following you will immediately be informed.
+
+D. WEEKY
+When you select WEEKY service mode on our website, you can defin any trip calendar for the future. Our server will then follow each requested period of service  by activating VOXINFOS without any operation for you.
+
+For any question relating to VOXINFOS,  please send an email to sav at voxinfos dot com . }
+$GPS{Status}
+$lat{Latitude}
+$long{Longitude}
+$vit{Speed}
+$cap{Direction}
+$2{Sending position…}
+$3{SMS sending ok}
+$4{Position sent!}
+$5{SMS Error}
+$6{Error sending SMS}
+$7{Error sending  message}
+$8{Error sending SMS}
+$9{Number of wanted  minutes of service}
+$10{Estimated cost :}
+$11{SMS Sent successfully}
+$12{Request sent to server !}
+$13{Return}
+$14{Select GPS source}
+$15{Run shooty}
+$16{Run Weeky}
+$17{Change source}
+$18{Cancel}
+$19{Scanning bluetooth…}
+$20{Succes}
+$21{ found items!}
+$22{Define}
+$23{Please wait...}
+$24{Error  incrrect bluetooth source}
+$25{Exit}
+$26{Display}
+$27{Display incoming SMS}
+$28{Hide}
+$29{Hide incoming SMS}
+$30{Sending request}
+$31{What protocole do you want to use ?}
+$32{Information}
+$33{This change needs VOXINFOS to be restarted.}
+$34{Configuration change}
+$35{key not returned on time. Restart VOXINFOS}
+$36{sending in progress}
+$37{Identification request}
+$38{Awaiting identification...}
+$39{Awaiting for the key}
+$40{Key rot returned on time}
+$41{Closing software}
+$42{Starting service}
+$43{Follow up :}
+$44{Service error}
+$45{Danger alert}
+$46{Permanent control}
+$47{Temporary control}
+$48{moving control}
+$49{red fire control}
+$50{railroad cross control}
+$51{school}
+$52{traffic jam}
+$53{Accident}
+$54{Works}
+$55{Thanks for your contribution}
+$56{Error}
+$57{No service running}
+$58{No GPS signal}
+$59{Help}
+$60{Recording}
+$61{Please key in your email adress :}
+$62{Error in munites format}
+$63{UNKNOWN}
+$64{AVAILABLE}
+$65{OUT OF ORDER}
+$66{TEMPORARY UNAVAILABLE}
+$67{unreadable message}
+$68{Running SMS parsing}
+$69{en cours (reste : }
+$70{next in }
+$71{no one plannned}
+$72{Danger coming soon}
+$73{Approach Alert  !!!}
+$74{follow-up (weeky)}
+$75{ point(s) of interest (}
+$76{ and }
+$77{ follow-up (}
+$78{ Key ok !}
+$79{Error in minutes format}
+$80{Help}
+$81{SMS position}
+$82{Loading}
+$83{source}
+$84{internal GPS}
+$85{General options}
+$86{Control options}
+$90{default duration}
+$91{highway alert in m}
+$92{road alert in m GPS}
+$93{city alert in m}
+$94{position interval}

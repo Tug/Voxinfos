@@ -1,0 +1,125 @@
+$help{
+Cette application vous signale les dangers présents sur votre trajet.
+ ENVIRONNEMENT :
+Votre mobile doit pouvoir :
+1. gérer des flux HTTP et/ou des sms 
+2. envoyer sa position GPS (GPS interne ou externe)
+VOXINFOS vous permet de sélectionner la source GPS interne ou externe
+
+Les principes de fonctionnement :  
+VOXINFOS peut échanger avec le serveur soit en WAP/HTTP soit par SMS. Dans ce dernier cas, qui oblige le serveur
+à vous adresser des SMS,  le nombre de points débité est de 5 contre 1.
+
+A. INSTALLATION
+Attention a prendre soin de supprimer toute ancienne version avant de reinstaller VOXINFOS. Lors de l'installation, répondez toujours 'JAMAIS DEMANDER' a toutes les questions. VOXINFOS est une application certifiée.
+La procédure d'installation de VOXINFOS sur votre mobile se termine par l'envoi au serveur d'un SMS. Le serveur identifie la source de l'envoi et retourne a VOXINFOS une clef unique d'identification
+
+B. SHOOTY 
+Dans le menu Options de VOXINFOS, choisir Lancement SHOOTY et saisir le nombre de minutes de suivi souhaité en minutes (valeur par défaut : 60)
+Dès validation, VOXINFOS envoie au serveur une demande de suivi en fournissant les paramètres voulus. Si un solde insuffisant sur votre compte ne permet pas de lancer le suivi demandé, un SMS vous est adressé.
+Sinon le serveur renvoie son accord pour ce suivi. VOXINFOS envoie alors sa position GPS à intervalle régulier et le serveur lui retourne les points de danger contenus dans sa base de données les plus proches de lui .
+Dès que VOXINFOS s'en approche, VOXINFOS vous signale vocalement la vitesse maximale à respecter.
+Notez que votre compte est débité à chaque reception de position.
+Si vous êtes arrivés en avance,  vous fermez VOXINFOS et votre compte n'est plus débité
+
+C. COMMUNAUTE
+Pendant votre trajet, vous pouvez signaler à la communauté VOXINFOS les dangers que vous rencontrez. Dans Options, choisissez 'Informer d'un danger' puis le type de danger rencontré: permanent, temporaire ou roulant pour signaler par exemple un convoi exceptionnel,
+un véhicule de dépannage ... . Le serveur intègre cette information dans sa base de données et en fait profiter immédiatement les membres en cours de suivi.
+
+D. WEEKY
+Lorsque vous sélectionnez le service WEEKY sur notre site web, il vous est demandé de dé9finir votre calendrier prévisionnel. Le serveur pourra alors suivre les plages de ce calendrier de service et activer VOXINFOS sans intervention de votre part. Pour toute question relative au fonctionnement de VOXINFOS,  adressez un email a sav arobase voxinfos point com .}
+$GPS{Etat}
+$lat{Latitude}
+$long{Longitude}
+$vit{Vitesse}
+$cap{Cap}
+$2{Envoi de la position...}
+$3{Envoi SMS ok}
+$4{Position envoyée!}
+$5{Erreur SMS}
+$6{Erreur envoi du SMS}
+$7{Erreur envoi  message}
+$8{Erreur envoi du SMS}
+$9{Nombre de min. de service :}
+$10{Cout estimé:}
+$11{Succes envoi SMS}
+$12{Demande envoyée !}
+$13{Retour}
+$14{Choisir la source GPS}
+$15{Lancer shooty}
+$16{Lancer Weeky}
+$17{Changer source}
+$18{Annuler}
+$19{Recherche de périphériques}
+$20{Succès}
+$21{périphériques trouvés!}
+$22{Définir}
+$23{Patientez}
+$24{source bluetooth non compatible}
+$25{Quitter}
+$26{afficher}
+$27{afficher SMS entrants}
+$28{masquer}
+$29{masquer SMS entrants}
+$30{Envoi de la demande}
+$31{Quel protocole souhaitez vous utiliser ?}
+$32{Information}
+$33{Cette opération necessite le redémarrage de l'application.}
+$34{Changement de la configuration}
+$35{La cle n'a pas été reçu. Relancer VOXINFOS}
+$36{Envoi en cours}
+$37{Demande d'identification}
+$38{Attente d'identification...}
+$39{Attente de la clef}
+$40{Clé non reçu à temps}
+$41{Fermeture de l'application}
+$42{Démarrage du service}
+$43{Suivi : }
+$44{Erreur du service}
+$45{Alerte danger}
+$46{Ctrle permanent}
+$47{Ctrle Temporaire}
+$48{Ctrle roulant}
+$49{Ctrle feu rouge}
+$50{Ctrle passage à niv.}
+$51{Ecole}
+$52{Bouchons}
+$53{Accident}
+$54{Travaux}
+$55{Merci de votre contribution}
+$56{Erreur}
+$57{aucun service en cours}
+$58{aucun signal GPS}
+$59{Aide}
+$60{Enregistrement}
+$61{Votre adresse mail :}
+$62{Erreur format des minutes}
+$63{INCONNU}
+$64{DISPONIBLE}
+$65{HORS SERVICE}
+$66{TEMPORAIREMENT INDISPONIBLE}
+$67{Message illisible}
+$68{Traitement du SMS en cours}
+$69{en cours (reste : }
+$70{prochain dans}
+$71{aucun planifié}
+$72{Danger à proximité}
+$73{Alerte d'approche !!!}
+$74{Suivi (weeky)}
+$75{ point(s) d'interet(s) (}
+$76{ et }
+$77{ suivi(s) (}
+$78{ Clef ok !}
+$79{Erreur format des minutes}
+$80{Aide}
+$81{Position SMS}
+$82{Chargement}
+$83{source}
+$84{GPS interne}
+$85{Options générales}
+$86{Options de controle}
+$90{durée service std}
+$91{alerte autoroute à}
+$92{alerte route à}
+$93{alerte ville à}
+$94{envoi position en min}
